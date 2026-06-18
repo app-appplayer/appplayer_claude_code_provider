@@ -1,0 +1,25 @@
+name: appplayer_claude_code_provider
+description: A brain_kernel LLM provider that drives Claude Code as a live interactive session (no `-p`), keeping usage on the flat subscription. Desktop-only.
+version: 0.1.0
+homepage: https://app-appplayer.github.io/makemind
+repository: https://github.com/app-appplayer/appplayer_claude_code_provider
+issue_tracker: https://github.com/app-appplayer/appplayer_claude_code_provider/issues
+
+topics:
+  - llm
+  - claude
+  - appplayer
+  - mcp
+  - provider
+
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  brain_kernel: ^0.1.2
+  mcp_llm: ^2.1.1
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.24.0
