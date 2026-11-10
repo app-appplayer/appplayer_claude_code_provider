@@ -1,3 +1,7 @@
+## 0.2.1
+
+- Accept `brain_kernel ^0.4.0` (and `mcp_llm ^3.0.3`, the kernel's floor). The provider's own API is unchanged; the old `^0.3.0` bound blocked every consumer that uses both this provider and the 0.4.0 kernel.
+
 ## 0.2.0
 
 ### Breaking
