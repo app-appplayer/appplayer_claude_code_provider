@@ -1,3 +1,8 @@
+## 0.2.0
+
+### Breaking
+- Requires `brain_kernel` ^0.3.0 and `mcp_llm` ^3.0.0 (MCP 3.0). The provider's own API is unchanged.
+
 ## 0.1.1
 
 - Accept `brain_kernel ^0.2.0`. The 0.2.0 kernel adds resource-subscription
